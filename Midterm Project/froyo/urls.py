@@ -1,4 +1,4 @@
-from django.conf.urls import urls
+from django.conf.urls import url
 
 from .views import IngredientsListView, IngredientsDetailView, IngredientsUpdateView, IngredientsCreateView, RecipesListView, RecipesDetailView, RecipesUpdateView, RecipesCreateView, OrdersListView, OrdersDetailView, OrdersUpdateView, OrdersCreateView
 
